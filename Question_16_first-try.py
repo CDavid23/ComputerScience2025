@@ -1,7 +1,7 @@
 # Question 16 (a)
 # Examination Number:
 
-def get grade (result) :
+def get_grade (result) :
   grade = "Unsuccessful"
 
   if result >= 80:
@@ -18,7 +18,7 @@ total = 0 # Initialise the running total to 0
 
 # Loop N times
 for i in range (N) :
-   total = total + results lil # Running total
+   total = total + results [i] #Running total
   
 # Divide by the total number of results to give the mean
 arithmetic_mean = total/9
